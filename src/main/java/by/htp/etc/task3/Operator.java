@@ -11,7 +11,7 @@ public enum Operator {
     private final char operator;
     private final int priority;
 
-    Operator(char operator, int priority){
+    Operator(char operator, int priority) {
         this.operator = operator;
         this.priority = priority;
     }
